@@ -1,27 +1,28 @@
 body{
     background-size: cover;
 }
-a{
-    font-size: 23px !important;
-    background-color:orange;
-    border-radius: 25px !important;
-    width: 400px;
+h1{
+    color: yellow;
+    font-size: 23px;
+    width:100%;
+    margin:0px;
 }
-.heading
+#start,#number_of_objects
 {
-font-size: 23px;
-width: 100%;
-margin: 0px;
-box-shadow: 10px 10px 10px black;
+    font-size:20px;
 }
-
-#status
-{
-font-size: 18px;
+.copy_right_footer{
+    position:fixed;
+    color:whitesmoke;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    line-height: 3;
+    text-align: center;
 }
 canvas{
+    border: 5px dashed blue;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px grey;
-    border-color: goldenrod;
-    border: solid
+    margin-top: 130px;
+    box-shadow: 10px 10px 10px black;
 }
